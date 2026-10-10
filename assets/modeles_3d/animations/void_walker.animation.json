@@ -1,0 +1,528 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.void_walker.idle": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [
+            0,
+            "math.sin(query.anim_time * 100) * 0.7",
+            0
+          ]
+        },
+        "swirl_0": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_1": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_2": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_3": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_4": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_5": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_6": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_7": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_8": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "mote_0": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_1": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_2": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_3": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_4": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_5": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_6": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_7": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_8": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_9": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_10": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_11": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_12": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_13": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "arm_-1": {
+          "rotation": [
+            "math.sin(query.anim_time * 80) * 3",
+            0,
+            0
+          ]
+        },
+        "arm_1": {
+          "rotation": [
+            "math.sin(query.anim_time * 80 + 180) * 3",
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.void_walker.walk": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [
+            0,
+            "math.sin(query.anim_time * 100) * 0.7",
+            0
+          ]
+        },
+        "swirl_0": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_1": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_2": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_3": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_4": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_5": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_6": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_7": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "swirl_8": {
+          "rotation": [
+            0,
+            "query.anim_time * 85",
+            0
+          ]
+        },
+        "mote_0": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_1": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_2": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_3": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_4": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_5": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_6": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_7": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_8": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_9": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_10": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_11": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_12": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "mote_13": {
+          "rotation": [
+            0,
+            "query.anim_time * -45",
+            0
+          ]
+        },
+        "arm_-1": {
+          "rotation": [
+            "math.sin(query.anim_time * 80) * 3",
+            0,
+            0
+          ]
+        },
+        "arm_1": {
+          "rotation": [
+            "math.sin(query.anim_time * 80 + 180) * 3",
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.void_walker.attack": {
+      "animation_length": 0.65,
+      "bones": {
+        "arm_-1": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.15": [
+              -65,
+              0,
+              0
+            ],
+            "0.3": [
+              25,
+              0,
+              0
+            ],
+            "0.65": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_1": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.15": [
+              -65,
+              0,
+              0
+            ],
+            "0.3": [
+              25,
+              0,
+              0
+            ],
+            "0.65": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.void_walker.ability": {
+      "animation_length": 0.65,
+      "bones": {
+        "arm_-1": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.15": [
+              -65,
+              0,
+              0
+            ],
+            "0.3": [
+              25,
+              0,
+              0
+            ],
+            "0.65": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_1": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.15": [
+              -65,
+              0,
+              0
+            ],
+            "0.3": [
+              25,
+              0,
+              0
+            ],
+            "0.65": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.void_walker.hurt": {
+      "animation_length": 0.3,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.12": [
+              -8,
+              0,
+              0
+            ],
+            "0.3": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.void_walker.death": {
+      "animation_length": 1.5,
+      "bones": {
+        "root": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "1.5": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          }
+        }
+      }
+    }
+  }
+}

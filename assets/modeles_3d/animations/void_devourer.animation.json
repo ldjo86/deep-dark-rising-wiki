@@ -1,0 +1,391 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.void_devourer.idle": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [
+            0,
+            "math.sin(query.anim_time * 100) * 1.5",
+            0
+          ]
+        },
+        "swirl_0": {
+          "rotation": [
+            0,
+            "query.anim_time * 580",
+            0
+          ]
+        },
+        "swirl_1": {
+          "rotation": [
+            0,
+            "query.anim_time * 598",
+            0
+          ]
+        },
+        "swirl_2": {
+          "rotation": [
+            0,
+            "query.anim_time * 616",
+            0
+          ]
+        },
+        "swirl_3": {
+          "rotation": [
+            0,
+            "query.anim_time * 634",
+            0
+          ]
+        },
+        "swirl_4": {
+          "rotation": [
+            0,
+            "query.anim_time * 652",
+            0
+          ]
+        },
+        "swirl_5": {
+          "rotation": [
+            0,
+            "query.anim_time * 670",
+            0
+          ]
+        },
+        "swirl_6": {
+          "rotation": [
+            0,
+            "query.anim_time * 688",
+            0
+          ]
+        },
+        "swirl_7": {
+          "rotation": [
+            0,
+            "query.anim_time * 706",
+            0
+          ]
+        },
+        "swirl_8": {
+          "rotation": [
+            0,
+            "query.anim_time * 724",
+            0
+          ]
+        },
+        "swirl_9": {
+          "rotation": [
+            0,
+            "query.anim_time * 742",
+            0
+          ]
+        },
+        "swirl_10": {
+          "rotation": [
+            0,
+            "query.anim_time * 760",
+            0
+          ]
+        },
+        "swirl_11": {
+          "rotation": [
+            0,
+            "query.anim_time * 778",
+            0
+          ]
+        },
+        "swirl_12": {
+          "rotation": [
+            0,
+            "query.anim_time * 796",
+            0
+          ]
+        },
+        "swirl_13": {
+          "rotation": [
+            0,
+            "query.anim_time * 814",
+            0
+          ]
+        },
+        "swirl_14": {
+          "rotation": [
+            0,
+            "query.anim_time * 832",
+            0
+          ]
+        },
+        "swirl_15": {
+          "rotation": [
+            0,
+            "query.anim_time * 850",
+            0
+          ]
+        },
+        "swirl_16": {
+          "rotation": [
+            0,
+            "query.anim_time * 868",
+            0
+          ]
+        },
+        "swirl_17": {
+          "rotation": [
+            0,
+            "query.anim_time * 886",
+            0
+          ]
+        },
+        "maw": {
+          "rotation": [
+            0,
+            0,
+            "query.anim_time * 30"
+          ]
+        }
+      }
+    },
+    "animation.void_devourer.walk": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [
+            0,
+            "math.sin(query.anim_time * 100) * 1.5",
+            0
+          ]
+        },
+        "swirl_0": {
+          "rotation": [
+            0,
+            "query.anim_time * 580",
+            0
+          ]
+        },
+        "swirl_1": {
+          "rotation": [
+            0,
+            "query.anim_time * 598",
+            0
+          ]
+        },
+        "swirl_2": {
+          "rotation": [
+            0,
+            "query.anim_time * 616",
+            0
+          ]
+        },
+        "swirl_3": {
+          "rotation": [
+            0,
+            "query.anim_time * 634",
+            0
+          ]
+        },
+        "swirl_4": {
+          "rotation": [
+            0,
+            "query.anim_time * 652",
+            0
+          ]
+        },
+        "swirl_5": {
+          "rotation": [
+            0,
+            "query.anim_time * 670",
+            0
+          ]
+        },
+        "swirl_6": {
+          "rotation": [
+            0,
+            "query.anim_time * 688",
+            0
+          ]
+        },
+        "swirl_7": {
+          "rotation": [
+            0,
+            "query.anim_time * 706",
+            0
+          ]
+        },
+        "swirl_8": {
+          "rotation": [
+            0,
+            "query.anim_time * 724",
+            0
+          ]
+        },
+        "swirl_9": {
+          "rotation": [
+            0,
+            "query.anim_time * 742",
+            0
+          ]
+        },
+        "swirl_10": {
+          "rotation": [
+            0,
+            "query.anim_time * 760",
+            0
+          ]
+        },
+        "swirl_11": {
+          "rotation": [
+            0,
+            "query.anim_time * 778",
+            0
+          ]
+        },
+        "swirl_12": {
+          "rotation": [
+            0,
+            "query.anim_time * 796",
+            0
+          ]
+        },
+        "swirl_13": {
+          "rotation": [
+            0,
+            "query.anim_time * 814",
+            0
+          ]
+        },
+        "swirl_14": {
+          "rotation": [
+            0,
+            "query.anim_time * 832",
+            0
+          ]
+        },
+        "swirl_15": {
+          "rotation": [
+            0,
+            "query.anim_time * 850",
+            0
+          ]
+        },
+        "swirl_16": {
+          "rotation": [
+            0,
+            "query.anim_time * 868",
+            0
+          ]
+        },
+        "swirl_17": {
+          "rotation": [
+            0,
+            "query.anim_time * 886",
+            0
+          ]
+        },
+        "maw": {
+          "rotation": [
+            0,
+            0,
+            "query.anim_time * 30"
+          ]
+        }
+      }
+    },
+    "animation.void_devourer.attack": {
+      "animation_length": 0.8,
+      "bones": {
+        "arm_-1": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.25": [
+              -45,
+              0,
+              0
+            ],
+            "0.5": [
+              35,
+              0,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_1": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.25": [
+              -45,
+              0,
+              0
+            ],
+            "0.5": [
+              35,
+              0,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.void_devourer.ability": {
+      "animation_length": 1.4,
+      "bones": {
+        "root": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.6": [
+              0,
+              3,
+              0
+            ],
+            "1.4": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.void_devourer.death": {
+      "animation_length": 1.5,
+      "bones": {
+        "root": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "1.5": [
+              0.03,
+              0.03,
+              0.03
+            ]
+          }
+        }
+      }
+    }
+  }
+}
