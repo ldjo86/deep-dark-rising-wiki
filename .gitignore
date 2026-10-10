@@ -1,0 +1,9 @@
+*.jar
+*.zip
+*.exe
+*.dll
+*.class
+*.log
+build/
+.gradle/
+__pycache__/
