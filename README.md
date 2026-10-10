@@ -20,3 +20,23 @@ Une expansion du Deep Dark dans laquelle le sculk se propage et un portail mène
 - [English overview](docs/English-Overview.md)
 
 Télécharge les fichiers d'installation directement sur CurseForge. Les JAR, ZIP et textures ne sont pas redistribués dans ce wiki.
+
+
+## Ressources réelles extraites des archives
+
+Les fichiers JAR/ZIP du mod ont été inspectés sans être exécutés. Les pages suivantes présentent les recettes JSON, fonctions, traductions, structures et textures effectivement présentes dans la version indiquée.
+
+- [Atlas technique : versions, structures, butin](docs/Atlas-technique.md)
+- [Recettes et crafts du JAR](docs/Recettes-verifiees.md)
+- [Objets, blocs, entités et enchantements](docs/Objets-blocs-entites.md)
+- [Galerie des textures PNG du mod](docs/Textures-originales.md)
+- [Fonctions et règles statiques](docs/Fonctions-analysees.md)
+
+**Référence :** `deep-dark-rising-0.1.0-mc1.21-universal.jar`, module `META-INF/jars/deep-dark-rising-0.1.0-mc1.21.11.jar`.
+
+
+### Aperçu des textures originales
+
+<a href="docs/Textures-originales.md"><img src="assets/planche-textures.png" alt="Planche de textures originales extraites du JAR" width="670"></a>
+
+Les fichiers PNG sont extraits du JAR du mod. La planche illustre les ressources brutes, pas l'apparence définitive des blocs et entités dans Minecraft.

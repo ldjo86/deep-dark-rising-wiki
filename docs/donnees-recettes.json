@@ -1,0 +1,395 @@
+{
+  "source": "deep-dark-rising-0.1.0-mc1.21-universal.jar",
+  "variant": "1.21.11",
+  "mod_id": "deep_dark_rising",
+  "recipes": [
+    {
+      "id": "deep_dark_rising:ancient_sculk_heart",
+      "type": "crafting_shaped",
+      "result": "deep_dark_rising:ancient_sculk_heart",
+      "quantity": 1,
+      "inputs": [
+        "C = minecraft:sculk_catalyst",
+        "H = deep_dark_rising:charged_sculk_heart",
+        "S = minecraft:echo_shard"
+      ],
+      "pattern": [
+        "CSC",
+        "SHS",
+        "CSC"
+      ],
+      "name": "Ancient Sculk Heart",
+      "source_path": "data/deep_dark_rising/recipe/ancient_sculk_heart.json"
+    },
+    {
+      "id": "deep_dark_rising:charged_sculk_heart",
+      "type": "crafting_shaped",
+      "result": "deep_dark_rising:charged_sculk_heart",
+      "quantity": 1,
+      "inputs": [
+        "F = deep_dark_rising:echo_sculk_fragment",
+        "H = deep_dark_rising:unstable_sculk_heart"
+      ],
+      "pattern": [
+        "FFF",
+        "FHF",
+        "FFF"
+      ],
+      "name": "Charged Sculk Heart",
+      "source_path": "data/deep_dark_rising/recipe/charged_sculk_heart.json"
+    },
+    {
+      "id": "deep_dark_rising:concentrated_firework",
+      "type": "concentrated_firework",
+      "result": "(dynamique ou non précisé)",
+      "quantity": 1,
+      "inputs": [
+        "(voir fichier JSON d'origine)"
+      ],
+      "pattern": [],
+      "name": "(Dynamique Ou Non Précisé)",
+      "source_path": "data/deep_dark_rising/recipe/concentrated_firework.json"
+    },
+    {
+      "id": "deep_dark_rising:concentrated_tnt",
+      "type": "crafting_shaped",
+      "result": "deep_dark_rising:concentrated_tnt",
+      "quantity": 1,
+      "inputs": [
+        "P = deep_dark_rising:concentrated_gunpowder",
+        "S = #minecraft:sand"
+      ],
+      "pattern": [
+        "SPS",
+        "PSP",
+        "SPS"
+      ],
+      "name": "Concentrated TNT",
+      "source_path": "data/deep_dark_rising/recipe/concentrated_tnt.json"
+    },
+    {
+      "id": "deep_dark_rising:cooked_sculk_flesh",
+      "type": "smelting",
+      "result": "deep_dark_rising:cooked_sculk_flesh",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : deep_dark_rising:sculk_flesh"
+      ],
+      "pattern": [],
+      "name": "Cooked Sculk Flesh",
+      "source_path": "data/deep_dark_rising/recipe/cooked_sculk_flesh.json"
+    },
+    {
+      "id": "deep_dark_rising:cooked_sculk_flesh_campfire",
+      "type": "campfire_cooking",
+      "result": "deep_dark_rising:cooked_sculk_flesh",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : deep_dark_rising:sculk_flesh"
+      ],
+      "pattern": [],
+      "name": "Cooked Sculk Flesh",
+      "source_path": "data/deep_dark_rising/recipe/cooked_sculk_flesh_campfire.json"
+    },
+    {
+      "id": "deep_dark_rising:cooked_sculk_flesh_smoking",
+      "type": "smoking",
+      "result": "deep_dark_rising:cooked_sculk_flesh",
+      "quantity": 1,
+      "inputs": [
+        "ingredient : deep_dark_rising:sculk_flesh"
+      ],
+      "pattern": [],
+      "name": "Cooked Sculk Flesh",
+      "source_path": "data/deep_dark_rising/recipe/cooked_sculk_flesh_smoking.json"
+    },
+    {
+      "id": "deep_dark_rising:deep_echo_catalyst",
+      "type": "crafting_shaped",
+      "result": "deep_dark_rising:deep_echo_catalyst",
+      "quantity": 1,
+      "inputs": [
+        "B = minecraft:bone",
+        "F = deep_dark_rising:echo_sculk_fragment",
+        "H = deep_dark_rising:unstable_sculk_heart",
+        "S = minecraft:sculk"
+      ],
+      "pattern": [
+        "BFB",
+        "SHS",
+        "SSS"
+      ],
+      "name": "Deep Echo Catalyst",
+      "source_path": "data/deep_dark_rising/recipe/deep_echo_catalyst.json"
+    },
+    {
+      "id": "deep_dark_rising:devourer_gauntlet",
+      "type": "crafting_shapeless",
+      "result": "deep_dark_rising:devourer_gauntlet",
+      "quantity": 1,
+      "inputs": [
+        "deep_dark_rising:devourer_heart",
+        "deep_dark_rising:devourer_heart",
+        "deep_dark_rising:devourer_heart",
+        "minecraft:netherite_ingot",
+        "minecraft:diamond"
+      ],
+      "pattern": [],
+      "name": "Devourer's Grasp",
+      "source_path": "data/deep_dark_rising/recipe/devourer_gauntlet.json"
+    },
+    {
+      "id": "deep_dark_rising:netherite_flint_and_steel",
+      "type": "smithing_transform",
+      "result": "deep_dark_rising:netherite_flint_and_steel",
+      "quantity": 1,
+      "inputs": [
+        "base : minecraft:flint_and_steel",
+        "template : minecraft:netherite_upgrade_smithing_template",
+        "addition : minecraft:netherite_ingot"
+      ],
+      "pattern": [],
+      "name": "Netherite Flint and Steel",
+      "source_path": "data/deep_dark_rising/recipe/netherite_flint_and_steel.json"
+    },
+    {
+      "id": "deep_dark_rising:oracle_scepter",
+      "type": "crafting_shapeless",
+      "result": "deep_dark_rising:oracle_scepter",
+      "quantity": 1,
+      "inputs": [
+        "deep_dark_rising:void_prism",
+        "deep_dark_rising:void_prism",
+        "deep_dark_rising:void_prism",
+        "minecraft:netherite_ingot",
+        "minecraft:diamond"
+      ],
+      "pattern": [],
+      "name": "Oracle's Scepter",
+      "source_path": "data/deep_dark_rising/recipe/oracle_scepter.json"
+    },
+    {
+      "id": "deep_dark_rising:prismatic_collector",
+      "type": "crafting_shaped",
+      "result": "deep_dark_rising:prismatic_collector",
+      "quantity": 1,
+      "inputs": [
+        "D = minecraft:diamond_block",
+        "G = deep_dark_rising:prismatic_ganglion",
+        "H = deep_dark_rising:charged_sculk_heart",
+        "N = minecraft:netherite_ingot",
+        "O = minecraft:obsidian",
+        "R = minecraft:redstone_block"
+      ],
+      "pattern": [
+        "DGD",
+        "NHN",
+        "ORO"
+      ],
+      "name": "Prismatic Collector",
+      "source_path": "data/deep_dark_rising/recipe/prismatic_collector.json"
+    },
+    {
+      "id": "deep_dark_rising:sculk_confinement",
+      "type": "crafting_shaped",
+      "result": "deep_dark_rising:sculk_confinement",
+      "quantity": 1,
+      "inputs": [
+        "D = minecraft:diamond_block",
+        "G = deep_dark_rising:prismatic_ganglion",
+        "H = deep_dark_rising:ancient_sculk_heart",
+        "N = minecraft:netherite_ingot",
+        "O = minecraft:obsidian"
+      ],
+      "pattern": [
+        "NGN",
+        "OHO",
+        "DGD"
+      ],
+      "name": "Sculk Containment Block",
+      "source_path": "data/deep_dark_rising/recipe/sculk_confinement.json"
+    },
+    {
+      "id": "deep_dark_rising:sculk_culture",
+      "type": "crafting_shapeless",
+      "result": "deep_dark_rising:sculk_culture",
+      "quantity": 1,
+      "inputs": [
+        "minecraft:moss_block",
+        "deep_dark_rising:echo_sculk_spore"
+      ],
+      "pattern": [],
+      "name": "Sculk Culture",
+      "source_path": "data/deep_dark_rising/recipe/sculk_culture.json"
+    },
+    {
+      "id": "deep_dark_rising:sculk_growth_powder",
+      "type": "crafting_shapeless",
+      "result": "deep_dark_rising:sculk_growth_powder",
+      "quantity": 2,
+      "inputs": [
+        "deep_dark_rising:sculk_leg"
+      ],
+      "pattern": [],
+      "name": "Sculk Growth Powder",
+      "source_path": "data/deep_dark_rising/recipe/sculk_growth_powder.json"
+    },
+    {
+      "id": "deep_dark_rising:stalker_talon",
+      "type": "crafting_shapeless",
+      "result": "deep_dark_rising:stalker_talon",
+      "quantity": 1,
+      "inputs": [
+        "deep_dark_rising:void_claw",
+        "deep_dark_rising:void_claw",
+        "deep_dark_rising:void_claw",
+        "minecraft:netherite_ingot",
+        "minecraft:diamond"
+      ],
+      "pattern": [],
+      "name": "Stalker's Talon",
+      "source_path": "data/deep_dark_rising/recipe/stalker_talon.json"
+    },
+    {
+      "id": "deep_dark_rising:unstable_sculk_heart",
+      "type": "crafting_shaped",
+      "result": "deep_dark_rising:unstable_sculk_heart",
+      "quantity": 1,
+      "inputs": [
+        "F = deep_dark_rising:echo_sculk_fragment",
+        "S = deep_dark_rising:echo_sculk_spore"
+      ],
+      "pattern": [
+        "SSS",
+        "SFS",
+        "SSS"
+      ],
+      "name": "Unstable Sculk Heart",
+      "source_path": "data/deep_dark_rising/recipe/unstable_sculk_heart.json"
+    },
+    {
+      "id": "deep_dark_rising:void_blade",
+      "type": "crafting_shapeless",
+      "result": "deep_dark_rising:void_blade",
+      "quantity": 1,
+      "inputs": [
+        "deep_dark_rising:broken_void_weapon",
+        "deep_dark_rising:broken_void_weapon",
+        "deep_dark_rising:broken_void_weapon",
+        "minecraft:diamond"
+      ],
+      "pattern": [],
+      "name": "Void Blade",
+      "source_path": "data/deep_dark_rising/recipe/void_blade.json"
+    },
+    {
+      "id": "deep_dark_rising:void_blade_axe",
+      "type": "void_upgrade",
+      "result": "(dynamique ou non précisé)",
+      "quantity": 1,
+      "inputs": [
+        "base : #minecraft:axes",
+        "addition : deep_dark_rising:void_blade"
+      ],
+      "pattern": [],
+      "name": "(Dynamique Ou Non Précisé)",
+      "source_path": "data/deep_dark_rising/recipe/void_blade_axe.json"
+    },
+    {
+      "id": "deep_dark_rising:void_blade_hoe",
+      "type": "void_upgrade",
+      "result": "(dynamique ou non précisé)",
+      "quantity": 1,
+      "inputs": [
+        "base : #minecraft:hoes",
+        "addition : deep_dark_rising:void_blade"
+      ],
+      "pattern": [],
+      "name": "(Dynamique Ou Non Précisé)",
+      "source_path": "data/deep_dark_rising/recipe/void_blade_hoe.json"
+    },
+    {
+      "id": "deep_dark_rising:void_blade_pickaxe",
+      "type": "void_upgrade",
+      "result": "(dynamique ou non précisé)",
+      "quantity": 1,
+      "inputs": [
+        "base : #minecraft:pickaxes",
+        "addition : deep_dark_rising:void_blade"
+      ],
+      "pattern": [],
+      "name": "(Dynamique Ou Non Précisé)",
+      "source_path": "data/deep_dark_rising/recipe/void_blade_pickaxe.json"
+    },
+    {
+      "id": "deep_dark_rising:void_blade_shovel",
+      "type": "void_upgrade",
+      "result": "(dynamique ou non précisé)",
+      "quantity": 1,
+      "inputs": [
+        "base : #minecraft:shovels",
+        "addition : deep_dark_rising:void_blade"
+      ],
+      "pattern": [],
+      "name": "(Dynamique Ou Non Précisé)",
+      "source_path": "data/deep_dark_rising/recipe/void_blade_shovel.json"
+    },
+    {
+      "id": "deep_dark_rising:void_blade_sword",
+      "type": "void_upgrade",
+      "result": "(dynamique ou non précisé)",
+      "quantity": 1,
+      "inputs": [
+        "base : #minecraft:swords",
+        "addition : deep_dark_rising:void_blade"
+      ],
+      "pattern": [],
+      "name": "(Dynamique Ou Non Précisé)",
+      "source_path": "data/deep_dark_rising/recipe/void_blade_sword.json"
+    },
+    {
+      "id": "deep_dark_rising:void_brise",
+      "type": "crafting_shapeless",
+      "result": "deep_dark_rising:void_brise",
+      "quantity": 1,
+      "inputs": [
+        "deep_dark_rising:broken_void_armor",
+        "deep_dark_rising:broken_void_armor",
+        "deep_dark_rising:broken_void_armor",
+        "minecraft:diamond"
+      ],
+      "pattern": [],
+      "name": "Void Breeze",
+      "source_path": "data/deep_dark_rising/recipe/void_brise.json"
+    },
+    {
+      "id": "deep_dark_rising:void_upgrade",
+      "type": "void_upgrade",
+      "result": "(dynamique ou non précisé)",
+      "quantity": 1,
+      "inputs": [
+        "base : #deep_dark_rising:void_upgrade_base",
+        "addition : deep_dark_rising:void_brise"
+      ],
+      "pattern": [],
+      "name": "(Dynamique Ou Non Précisé)",
+      "source_path": "data/deep_dark_rising/recipe/void_upgrade.json"
+    },
+    {
+      "id": "deep_dark_rising:weaver_boots",
+      "type": "crafting_shapeless",
+      "result": "deep_dark_rising:weaver_boots",
+      "quantity": 1,
+      "inputs": [
+        "deep_dark_rising:void_silk",
+        "deep_dark_rising:void_silk",
+        "deep_dark_rising:void_silk",
+        "minecraft:netherite_boots",
+        "minecraft:diamond"
+      ],
+      "pattern": [],
+      "name": "Weaver's Boots",
+      "source_path": "data/deep_dark_rising/recipe/weaver_boots.json"
+    }
+  ]
+}

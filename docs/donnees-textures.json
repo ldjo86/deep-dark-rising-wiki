@@ -1,0 +1,627 @@
+{
+  "source": "deep-dark-rising-0.1.0-mc1.21-universal.jar",
+  "variant": "1.21.11",
+  "textures": [
+    {
+      "source": "assets/deep_dark_rising/textures/block/ancient_sculk_heart.png",
+      "asset": "assets/textures/block/ancient_sculk_heart.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "3791e90efb50e0fd6424ff36322376610ac1840f1de1a0ffba608f5a5ef0fba9",
+      "id": "block/ancient_sculk_heart"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/charged_sculk_heart.png",
+      "asset": "assets/textures/block/charged_sculk_heart.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "b0c5a799640d0834cef4f97b30274eebe4cd582d9e30ff2aeb29bcf702d432b8",
+      "id": "block/charged_sculk_heart"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/deep_dark_portal.png",
+      "asset": "assets/textures/block/deep_dark_portal.png",
+      "category": "block",
+      "width": 16,
+      "height": 512,
+      "sha256": "888f3fe0fccb548a62e7737517ca6a3ad42e7047c7ad804ebb3d924515380fdc",
+      "id": "block/deep_dark_portal"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/sculk_chest_glow.png",
+      "asset": "assets/textures/block/sculk_chest_glow.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "e1755daf01a5257791ced4caf3c6535dc4ea98207ccd632d46a7b5f8c0a6caf8",
+      "id": "block/sculk_chest_glow"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/sculk_chest_rim.png",
+      "asset": "assets/textures/block/sculk_chest_rim.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "89cf9ec887f0d949ad3a74a3d30351c0ea4aff0c1acc66d12845544c380c8d45",
+      "id": "block/sculk_chest_rim"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/sculk_chest_shell.png",
+      "asset": "assets/textures/block/sculk_chest_shell.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "439646eacdb7f0b3a97de13f89c8bf71f18c2f95857fd4986197af435b1bdc35",
+      "id": "block/sculk_chest_shell"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/sculk_dripstone_tip.png",
+      "asset": "assets/textures/block/sculk_dripstone_tip.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "66b339058cd600fb516f6b012d5d8ffd6ad4539acf27682dd9cfb1debe4e16f3",
+      "id": "block/sculk_dripstone_tip"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/sculk_filament.png",
+      "asset": "assets/textures/block/sculk_filament.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "e23474119cc18567fdcaef95a8c4cd87a08aa8b4939a309848927c04bbb204a3",
+      "id": "block/sculk_filament"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/sculk_filament_active.png",
+      "asset": "assets/textures/block/sculk_filament_active.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "c6d2c83c6d4c768d72ec5ad868117aded09b963b4e559682f4fb9b8c70acef4c",
+      "id": "block/sculk_filament_active"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/sculk_heart_bone.png",
+      "asset": "assets/textures/block/sculk_heart_bone.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "109c9764d464ba129af100c15de2f01a3f326c1cba95b0a8d389c83b5b803116",
+      "id": "block/sculk_heart_bone"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/sculk_heart_core.png",
+      "asset": "assets/textures/block/sculk_heart_core.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "e30a70473b4d4747a68c028391fc2ed83efc5855b3b00c02a2a38ccf33cb2201",
+      "id": "block/sculk_heart_core"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/sculk_heart_shell.png",
+      "asset": "assets/textures/block/sculk_heart_shell.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "bac77aab66dfa10faa8c7ea4238a93a13f731cdcd5b8fe386d602af57a535c2e",
+      "id": "block/sculk_heart_shell"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/sculk_heart_veins.png",
+      "asset": "assets/textures/block/sculk_heart_veins.png",
+      "category": "block",
+      "width": 32,
+      "height": 32,
+      "sha256": "f3fb1dd77b519a8557163e7801e41d1f4c180f5328c1dc524f1205900b2686c3",
+      "id": "block/sculk_heart_veins"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/sculk_water.png",
+      "asset": "assets/textures/block/sculk_water.png",
+      "category": "block",
+      "width": 16,
+      "height": 256,
+      "sha256": "d68ff29d17d31a827d2639b5188faeb919644b555780c5f2275b58c8dec1f9c6",
+      "id": "block/sculk_water"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/unstable_sculk_heart.png",
+      "asset": "assets/textures/block/unstable_sculk_heart.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "204040f5876815fef50768dd10bfc1d2462fab9dde76ee188d4a89f58faebc3a",
+      "id": "block/unstable_sculk_heart"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/concentrated_tnt_bottom.png",
+      "asset": "assets/textures/block/concentrated_tnt_bottom.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "4ca19299a4beada8284b1e5d8303488935dee66fe101ee6760ad667b21e030a1",
+      "id": "block/concentrated_tnt_bottom"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/concentrated_tnt_side.png",
+      "asset": "assets/textures/block/concentrated_tnt_side.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "89fd403e3b6b1424a1eb1677b6b12031c262c13e28589ca962ccc2b8bdbca373",
+      "id": "block/concentrated_tnt_side"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/concentrated_tnt_top.png",
+      "asset": "assets/textures/block/concentrated_tnt_top.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "990b64b7b0aebcde6b744690fe8968d53d5187bfcc1049bcf1f5a799880f54d1",
+      "id": "block/concentrated_tnt_top"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/draining_redstone_1.png",
+      "asset": "assets/textures/block/draining_redstone_1.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "97d74b499c8fce478725b954df863a141aecc78e1b4351bc1140872c6fda6f35",
+      "id": "block/draining_redstone_1"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/draining_redstone_2.png",
+      "asset": "assets/textures/block/draining_redstone_2.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "7a07cd8ab62c9ad8195c35ad08d713900eb09093260e443658718a90644f2ca8",
+      "id": "block/draining_redstone_2"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/draining_redstone_3.png",
+      "asset": "assets/textures/block/draining_redstone_3.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "d68f0fac8c566ed18465871669eb767ab3e5ffe2272825603319bd6573da97d4",
+      "id": "block/draining_redstone_3"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/draining_redstone_4.png",
+      "asset": "assets/textures/block/draining_redstone_4.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "69b9a1fa391d7c0ca6b9a25d506809a87e4cc4a4eecd415cd9e59b9ca4475b3f",
+      "id": "block/draining_redstone_4"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/draining_redstone_5.png",
+      "asset": "assets/textures/block/draining_redstone_5.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "894ad2c871da47083045ab7dfce7ea53a2fe9e21f0cd6bb9b0f5022c9d981d17",
+      "id": "block/draining_redstone_5"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/block/draining_redstone_6.png",
+      "asset": "assets/textures/block/draining_redstone_6.png",
+      "category": "block",
+      "width": 16,
+      "height": 16,
+      "sha256": "4675c0f24023ded6b27ebfb7ee8eaf2d0677805ef137dfb42f7f7a67dcf9a7ad",
+      "id": "block/draining_redstone_6"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/broken_void_armor.png",
+      "asset": "assets/textures/item/broken_void_armor.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "e9bfae8019f70c31c3826a5db57ba7f94ed5af069a9e69569dfa959acc975ff9",
+      "id": "item/broken_void_armor"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/broken_void_weapon.png",
+      "asset": "assets/textures/item/broken_void_weapon.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "d4cd9087c3a0dd1f7033b7d09da8105b1f570a23bb1459474562a431053c73ef",
+      "id": "item/broken_void_weapon"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/cooked_sculk_flesh.png",
+      "asset": "assets/textures/item/cooked_sculk_flesh.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "6028c86a80af9f506ae2a61a8f44d1556586772a4569cab9d09fb3e2660be75e",
+      "id": "item/cooked_sculk_flesh"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/echo_sculk_fragment.png",
+      "asset": "assets/textures/item/echo_sculk_fragment.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "0f6d6cf6c42402cafa5c728808f51a15c98ea6ecd6643fad281a5e5b9152141b",
+      "id": "item/echo_sculk_fragment"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/echo_sculk_spore.png",
+      "asset": "assets/textures/item/echo_sculk_spore.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "74db3f19a61b6d0ba9b7896b6a1195e56ec4b0a92fc8f0e124403c31f4519863",
+      "id": "item/echo_sculk_spore"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/sculk_bone.png",
+      "asset": "assets/textures/item/sculk_bone.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "d4eef55de12fcf74325750129bf24e652eaeb18415611f9762d1bddaeef75095",
+      "id": "item/sculk_bone"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/sculk_carapace_tome.png",
+      "asset": "assets/textures/item/sculk_carapace_tome.png",
+      "category": "item",
+      "width": 64,
+      "height": 64,
+      "sha256": "b5e1bcb172c55196250260084fac8e012702c097fa4e8dfe394ab1ea7cb10d5c",
+      "id": "item/sculk_carapace_tome"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/sculk_flame.png",
+      "asset": "assets/textures/item/sculk_flame.png",
+      "category": "item",
+      "width": 64,
+      "height": 64,
+      "sha256": "01e4300a8d1c44cb591e7e4aa22ff8ca76d83883e446d526c8ec91d7c36a8181",
+      "id": "item/sculk_flame"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/sculk_flesh.png",
+      "asset": "assets/textures/item/sculk_flesh.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "a09b122cc74e11e396103be171b1d44353acd602242837cbb3050a335f79cc0c",
+      "id": "item/sculk_flesh"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/sculk_growth_powder.png",
+      "asset": "assets/textures/item/sculk_growth_powder.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "ed3e2493db88e95419413199e4746a7632b85912ece6cb3a98da1ef2e8655dd3",
+      "id": "item/sculk_growth_powder"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/sculk_leg.png",
+      "asset": "assets/textures/item/sculk_leg.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "53b7437313a946997afc6890428a0c0823fbf5b5a3afa1a3d4fb37af3cfdab43",
+      "id": "item/sculk_leg"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/sculk_thread.png",
+      "asset": "assets/textures/item/sculk_thread.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "f5a72704e422d9677221f5420094349d069b1c77a1b7f41af0b711d8d5a00757",
+      "id": "item/sculk_thread"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/void_blade.png",
+      "asset": "assets/textures/item/void_blade.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "fa2589df7a19d0fdf19e3b70cacf7a4c8b1f143186dfa724c28c495e0bb94e4d",
+      "id": "item/void_blade"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/void_brise.png",
+      "asset": "assets/textures/item/void_brise.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "678d7521d71b40cf9399874ff86c0a8b621b264b6f2eee0fa814a7b0e005bceb",
+      "id": "item/void_brise"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/void_claw.png",
+      "asset": "assets/textures/item/void_claw.png",
+      "category": "item",
+      "width": 64,
+      "height": 64,
+      "sha256": "380eef0bc82937beb1deb1c8a8921b27d87f8044725a2083d00643e58757e531",
+      "id": "item/void_claw"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/void_power_tome.png",
+      "asset": "assets/textures/item/void_power_tome.png",
+      "category": "item",
+      "width": 64,
+      "height": 64,
+      "sha256": "f2b48c97516b77c52e26e2c120aa57a4c83938c52df1cdeaec47ff3224c2c372",
+      "id": "item/void_power_tome"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/void_prism.png",
+      "asset": "assets/textures/item/void_prism.png",
+      "category": "item",
+      "width": 64,
+      "height": 64,
+      "sha256": "3ef32f472d5b57ad61f9b28184b91a82f600fc5da8086280899ec8a02996a97e",
+      "id": "item/void_prism"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/void_silk.png",
+      "asset": "assets/textures/item/void_silk.png",
+      "category": "item",
+      "width": 64,
+      "height": 64,
+      "sha256": "120638b3421d46ef501a0d81cff369f70538557b6b6acc59ab37691ecbaaeff3",
+      "id": "item/void_silk"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/void_stride_tome.png",
+      "asset": "assets/textures/item/void_stride_tome.png",
+      "category": "item",
+      "width": 64,
+      "height": 64,
+      "sha256": "a81cb16b1fbe5b8a50537a6f9d891d3a56304d22d5e28d416a40530c9bd3de3d",
+      "id": "item/void_stride_tome"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/abyssal_vitality_tome.png",
+      "asset": "assets/textures/item/abyssal_vitality_tome.png",
+      "category": "item",
+      "width": 64,
+      "height": 64,
+      "sha256": "133a125d97260b11dd2cb4f939702ed164c14629d0630dee2d325723d93cb1b1",
+      "id": "item/abyssal_vitality_tome"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/concentrated_firework.png",
+      "asset": "assets/textures/item/concentrated_firework.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "9d0e27312944800aa0096ba51b5e420d65126836e8a844139629cdc25dc5b1b4",
+      "id": "item/concentrated_firework"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/concentrated_gunpowder.png",
+      "asset": "assets/textures/item/concentrated_gunpowder.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "935a22a3b49dafa783b10f2fe4fbce2be862ac791c30c12f3c1fbd01cb1a641f",
+      "id": "item/concentrated_gunpowder"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/deep_echo_book.png",
+      "asset": "assets/textures/item/deep_echo_book.png",
+      "category": "item",
+      "width": 32,
+      "height": 32,
+      "sha256": "5a735b1b074ffcf2c2098ff3b55ae80dafba7f9bd9902ac7755f68854a98daf9",
+      "id": "item/deep_echo_book"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/item/deep_sight_tome.png",
+      "asset": "assets/textures/item/deep_sight_tome.png",
+      "category": "item",
+      "width": 64,
+      "height": 64,
+      "sha256": "a6a414fb2d071cc3bfbcf7b6b5a3424db73884a44920b5625bc41e1e208b0ff3",
+      "id": "item/deep_sight_tome"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/broyeur.png",
+      "asset": "assets/textures/entity/broyeur.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "3e515451a74e2fd5f19b3dfc52637d08d139d499fad7bdf1be873ba0a4490109",
+      "id": "entity/broyeur"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/broyeur_glowmask.png",
+      "asset": "assets/textures/entity/broyeur_glowmask.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "480eafd14721e2cb6144cd3622e17210135e627715877dfc2389f8a04f75d588",
+      "id": "entity/broyeur_glowmask"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/carillonneur.png",
+      "asset": "assets/textures/entity/carillonneur.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "4f2dae3c4644a29c05385ba77a73780ba686215a18f7952d2df43681f496b9eb",
+      "id": "entity/carillonneur"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/carillonneur_glowmask.png",
+      "asset": "assets/textures/entity/carillonneur_glowmask.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "480eafd14721e2cb6144cd3622e17210135e627715877dfc2389f8a04f75d588",
+      "id": "entity/carillonneur_glowmask"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/dechireur.png",
+      "asset": "assets/textures/entity/dechireur.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "157687ee5b5bc6208fef77e045cc00fb118e288025b16a38a068a2dc90500f3b",
+      "id": "entity/dechireur"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/dechireur_glowmask.png",
+      "asset": "assets/textures/entity/dechireur_glowmask.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "480eafd14721e2cb6144cd3622e17210135e627715877dfc2389f8a04f75d588",
+      "id": "entity/dechireur_glowmask"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/disloque.png",
+      "asset": "assets/textures/entity/disloque.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "58202ebd20b357fe5b9494d1129b79cc9c894739a18100b7bf3c1dde7d124b0f",
+      "id": "entity/disloque"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/disloque_glowmask.png",
+      "asset": "assets/textures/entity/disloque_glowmask.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "480eafd14721e2cb6144cd3622e17210135e627715877dfc2389f8a04f75d588",
+      "id": "entity/disloque_glowmask"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/engloutisseur.png",
+      "asset": "assets/textures/entity/engloutisseur.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "6f3002256c6ad2de1aca83853446369e042b7cc07783581f6755664785978f39",
+      "id": "entity/engloutisseur"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/engloutisseur_glowmask.png",
+      "asset": "assets/textures/entity/engloutisseur_glowmask.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "fd30d8ffe48532304f2ba0efc434289b068d938cfba3f4f23fe3095466052991",
+      "id": "entity/engloutisseur_glowmask"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/faucheuse.png",
+      "asset": "assets/textures/entity/faucheuse.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "6672302b141927210e446df07981ac50a48cd7413e67d12885055222473e95df",
+      "id": "entity/faucheuse"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/faucheuse_glowmask.png",
+      "asset": "assets/textures/entity/faucheuse_glowmask.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "d9dad50f89b64a414ff93235e0e347c686c941edfdcc3c8cfb69437cd5dc14d2",
+      "id": "entity/faucheuse_glowmask"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/fouisseur.png",
+      "asset": "assets/textures/entity/fouisseur.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "531319af02c205636e15cf1a8e8bbfd7b25ec2018e9e1003468e8f4778a3d680",
+      "id": "entity/fouisseur"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/fouisseur_glowmask.png",
+      "asset": "assets/textures/entity/fouisseur_glowmask.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "480eafd14721e2cb6144cd3622e17210135e627715877dfc2389f8a04f75d588",
+      "id": "entity/fouisseur_glowmask"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/matrice.png",
+      "asset": "assets/textures/entity/matrice.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "e62ce21bc644e65368a5e4f312beba19af3063fc1331aea686d965048f751ec5",
+      "id": "entity/matrice"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/matrice_glowmask.png",
+      "asset": "assets/textures/entity/matrice_glowmask.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "480eafd14721e2cb6144cd3622e17210135e627715877dfc2389f8a04f75d588",
+      "id": "entity/matrice_glowmask"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/perforeur.png",
+      "asset": "assets/textures/entity/perforeur.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "a0254d54a3709486275a4947e1407a4c41b0de1484d3eb39b0ce8f6f48916aeb",
+      "id": "entity/perforeur"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/perforeur_glowmask.png",
+      "asset": "assets/textures/entity/perforeur_glowmask.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "480eafd14721e2cb6144cd3622e17210135e627715877dfc2389f8a04f75d588",
+      "id": "entity/perforeur_glowmask"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/porteur.png",
+      "asset": "assets/textures/entity/porteur.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "3b1c394244ac0a1272c861a2a9c91ece6c643874792a75537f1635600e567458",
+      "id": "entity/porteur"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/entity/porteur_glowmask.png",
+      "asset": "assets/textures/entity/porteur_glowmask.png",
+      "category": "entity",
+      "width": 128,
+      "height": 128,
+      "sha256": "0634565f08ce5bb247699a5222409d4d7c70cc1fbf095005281ed12c6520741f",
+      "id": "entity/porteur_glowmask"
+    },
+    {
+      "source": "assets/deep_dark_rising/textures/environment/celestial/sculk_eye.png",
+      "asset": "assets/textures/environment/celestial/sculk_eye.png",
+      "category": "other",
+      "width": 1024,
+      "height": 768,
+      "sha256": "119e0ffc9e04bcac19348ce5e33dc3eef2f6d0e396b8e74a56650283652eb65a",
+      "id": "environment/celestial/sculk_eye"
+    }
+  ]
+}
