@@ -2,6 +2,8 @@
 
 **Ces images montrent les véritables formes 3D reconstruites à partir des modèles contenus dans les JARs et de leurs coordonnées UV.** Ce ne sont plus les planches de textures brutes.
 
+**Attention aux coordonnées UV :** les aperçus ont été recalculés avec une correspondance corrigée entre les coordonnées UV des modèles JSON Minecraft et la résolution des PNG, ainsi que l'ordre des faces Box UV GeckoLib. Les animations et le rendu exact en jeu restent à valider. [Lire le diagnostic avec images avant/après](Diagnostic-UV-2026-10-10.md).
+
 L'aperçu utilise une caméra isométrique, une pose de repos et un éclairage logiciel. Il ne représente pas une capture d'écran de Minecraft : les animations, les shaders, les couches émissives et certaines rotations peuvent varier en jeu.
 
 Les fichiers de modèle natifs extraits du JAR restent accessibles à côté des images ; aucun modèle n'a été inventé à partir du PNG seul.
