@@ -1,31 +1,29 @@
-# Deep Dark Rising — Fonctionnement
+# Explorer Deep Dark Rising — progression et mécaniques
 
-Une expansion du Deep Dark dans laquelle le sculk se propage et un portail mène à un monde dévasté.
+À la manière d'un guide de survie, cette page explique **quoi faire** plutôt que d'énumérer des noms de fichiers.
 
-### 1. Propagation de sculk vers la surface et créatures corrompues
+## 1. Préparer son expédition
 
-Propagation de sculk vers la surface et créatures corrompues.
+Commence dans l'Overworld : récolte tes ressources, prépare des outils de secours et garde un chemin de retour. Les premières zones touchées par le sculk peuvent mener vers des foyers d'infection plus dangereux.
 
-### 2. Cœurs de sculk réactifs aux attaques et au feu
+## 2. Comprendre l'infection
 
-Cœurs de sculk réactifs aux attaques et au feu.
+La description officielle du mod annonce un sculk qui gagne la surface et réagit aux agressions. Les cœurs de sculk et les créatures qui les entourent sont liés à cette progression. Évite de déclencher plusieurs menaces simultanément sans préparation.
 
-### 3. Villages fortifiés et factions alliées contre la corruption
+## 3. Découvrir les nouvelles créatures
 
-Villages fortifiés et factions alliées contre la corruption.
+Les nouvelles créatures apportent des menaces et des rencontres spécifiques au Deep Dark et au Vide. **Leur apparence reste secrète** dans cette documentation. [Lire ce qui change, sans images](Creatures-et-rencontres.md).
 
-### 4. Progression du portail autour des cités antiques, du Warden et d'un enchantement
+## 4. Retrouver le chemin de la dimension
 
-Progression du portail autour des cités antiques, du Warden et d'un enchantement.
+L'exploration des cités antiques, un objet lié au Warden et l'activation d'un portail font partie des éléments annoncés par l'auteur. Les étapes de cette progression ne doivent pas être déduites de suppositions : référez-vous à [CurseForge](https://www.curseforge.com/minecraft/mc-mods/deepdark-void-a-fabric-expansion-of-the-deep-dark) et au [guide d'installation](Installation.md).
 
-### 5. Nouvelle dimension en ruines, forteresses, cryptes, minerais et équipement sculk
+## 5. Utiliser les nouveaux blocs et équipements
 
-Nouvelle dimension en ruines, forteresses, cryptes, minerais et équipement sculk.
+Le JAR 0.1.0 contient **26 recettes JSON** indépendantes, dont des cœurs de sculk, un collecteur prismatique, des améliorations et des armes. [Voir les recettes](Recettes-verifiees.md) et [les aperçus des blocs](Modeles-3D.md).
 
-## Points à contrôler
+## Ce qui reste à tester
 
-Fichiers universels locaux Deep Dark Rising 0.1.0 pour Minecraft 26.x et 1.21.x inspectés en lecture seule, y compris leurs sous-JARs. Les comportements décrits restent à confirmer en jeu.
+Les probabilités exactes de génération, les caractéristiques des créatures et les conditions de certains événements nécessitent des essais en jeu. L'inventaire [technique des fichiers](Atlas-technique.md) ne remplace pas une mesure des mécaniques en survie.
 
-Les seuils, recettes, identifiants et comportements non explicitement mentionnés ne sont pas inventés.
-
-[Retour au sommaire](../README.md)
+[Accueil](../README.md)

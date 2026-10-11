@@ -1,12 +1,8 @@
-# Galerie des textures extraites — Deep Dark Rising
-**Analyse statique d'une archive locale** : les images ci-dessous sont des fichiers PNG originaux extraits du namespace propre au mod. Aucun rendu 3D en jeu n'est garanti par la présence de ces textures.
-Archive de référence : `deep-dark-rising-0.1.0-mc1.21-universal.jar` ; module : `META-INF/jars/deep-dark-rising-0.1.0-mc1.21.11.jar` ; variante `1.21.11`.
-Toutes les textures présentes dans le JAR ne sont pas reproduites : sélection de textures illustratives ; les originaux du mod ne sont pas modifiés.
-## Planche d'aperçu en images
+# Blocs, objets et équipements — galerie
 
-Cette planche rassemble les textures réelles du mod, agrandies avec interpolation au plus proche. Ce ne sont pas des captures de Minecraft ni des rendus de modèles 3D.
+Les images de cette page représentent des **blocs et objets** extraits du JAR `deep-dark-rising-0.1.0`. Les textures et modèles des nouvelles créatures ne sont pas affichés : leur apparence sera révélée à travers les captures choisies par l'auteur sur CurseForge.
 
-[![Planche de textures](../assets/planche-textures.png)](../assets/planche-textures.png)
+Pour les constructions assemblées, voir les **[aperçus 3D des blocs](Modeles-3D.md)**. Les PNG ci-dessous sont les textures de développement, et non des captures en jeu.
 
 ## Blocs
 | Texture | Nom de fichier | Format PNG |
@@ -62,33 +58,5 @@ Cette planche rassemble les textures réelles du mod, agrandies avec interpolati
 | <a href="../assets/textures/item/concentrated_gunpowder.png"><img src="../assets/textures/item/concentrated_gunpowder.png" alt="item/concentrated gunpowder" width="64"></a> | `item/concentrated_gunpowder` | 32 × 32 |
 | <a href="../assets/textures/item/deep_echo_book.png"><img src="../assets/textures/item/deep_echo_book.png" alt="item/deep echo book" width="64"></a> | `item/deep_echo_book` | 32 × 32 |
 | <a href="../assets/textures/item/deep_sight_tome.png"><img src="../assets/textures/item/deep_sight_tome.png" alt="item/deep sight tome" width="64"></a> | `item/deep_sight_tome` | 64 × 64 |
-## Entités et créatures
-| Texture | Nom de fichier | Format PNG |
-| --- | --- | --- |
-| <a href="../assets/textures/entity/broyeur.png"><img src="../assets/textures/entity/broyeur.png" alt="entity/broyeur" width="64"></a> | `entity/broyeur` | 128 × 128 |
-| <a href="../assets/textures/entity/broyeur_glowmask.png"><img src="../assets/textures/entity/broyeur_glowmask.png" alt="entity/broyeur glowmask" width="64"></a> | `entity/broyeur_glowmask` | 128 × 128 |
-| <a href="../assets/textures/entity/carillonneur.png"><img src="../assets/textures/entity/carillonneur.png" alt="entity/carillonneur" width="64"></a> | `entity/carillonneur` | 128 × 128 |
-| <a href="../assets/textures/entity/carillonneur_glowmask.png"><img src="../assets/textures/entity/carillonneur_glowmask.png" alt="entity/carillonneur glowmask" width="64"></a> | `entity/carillonneur_glowmask` | 128 × 128 |
-| <a href="../assets/textures/entity/dechireur.png"><img src="../assets/textures/entity/dechireur.png" alt="entity/dechireur" width="64"></a> | `entity/dechireur` | 128 × 128 |
-| <a href="../assets/textures/entity/dechireur_glowmask.png"><img src="../assets/textures/entity/dechireur_glowmask.png" alt="entity/dechireur glowmask" width="64"></a> | `entity/dechireur_glowmask` | 128 × 128 |
-| <a href="../assets/textures/entity/disloque.png"><img src="../assets/textures/entity/disloque.png" alt="entity/disloque" width="64"></a> | `entity/disloque` | 128 × 128 |
-| <a href="../assets/textures/entity/disloque_glowmask.png"><img src="../assets/textures/entity/disloque_glowmask.png" alt="entity/disloque glowmask" width="64"></a> | `entity/disloque_glowmask` | 128 × 128 |
-| <a href="../assets/textures/entity/engloutisseur.png"><img src="../assets/textures/entity/engloutisseur.png" alt="entity/engloutisseur" width="64"></a> | `entity/engloutisseur` | 128 × 128 |
-| <a href="../assets/textures/entity/engloutisseur_glowmask.png"><img src="../assets/textures/entity/engloutisseur_glowmask.png" alt="entity/engloutisseur glowmask" width="64"></a> | `entity/engloutisseur_glowmask` | 128 × 128 |
-| <a href="../assets/textures/entity/faucheuse.png"><img src="../assets/textures/entity/faucheuse.png" alt="entity/faucheuse" width="64"></a> | `entity/faucheuse` | 128 × 128 |
-| <a href="../assets/textures/entity/faucheuse_glowmask.png"><img src="../assets/textures/entity/faucheuse_glowmask.png" alt="entity/faucheuse glowmask" width="64"></a> | `entity/faucheuse_glowmask` | 128 × 128 |
-| <a href="../assets/textures/entity/fouisseur.png"><img src="../assets/textures/entity/fouisseur.png" alt="entity/fouisseur" width="64"></a> | `entity/fouisseur` | 128 × 128 |
-| <a href="../assets/textures/entity/fouisseur_glowmask.png"><img src="../assets/textures/entity/fouisseur_glowmask.png" alt="entity/fouisseur glowmask" width="64"></a> | `entity/fouisseur_glowmask` | 128 × 128 |
-| <a href="../assets/textures/entity/matrice.png"><img src="../assets/textures/entity/matrice.png" alt="entity/matrice" width="64"></a> | `entity/matrice` | 128 × 128 |
-| <a href="../assets/textures/entity/matrice_glowmask.png"><img src="../assets/textures/entity/matrice_glowmask.png" alt="entity/matrice glowmask" width="64"></a> | `entity/matrice_glowmask` | 128 × 128 |
-| <a href="../assets/textures/entity/perforeur.png"><img src="../assets/textures/entity/perforeur.png" alt="entity/perforeur" width="64"></a> | `entity/perforeur` | 128 × 128 |
-| <a href="../assets/textures/entity/perforeur_glowmask.png"><img src="../assets/textures/entity/perforeur_glowmask.png" alt="entity/perforeur glowmask" width="64"></a> | `entity/perforeur_glowmask` | 128 × 128 |
-| <a href="../assets/textures/entity/porteur.png"><img src="../assets/textures/entity/porteur.png" alt="entity/porteur" width="64"></a> | `entity/porteur` | 128 × 128 |
-| <a href="../assets/textures/entity/porteur_glowmask.png"><img src="../assets/textures/entity/porteur_glowmask.png" alt="entity/porteur glowmask" width="64"></a> | `entity/porteur_glowmask` | 128 × 128 |
-## Autres textures
-| Texture | Nom de fichier | Format PNG |
-| --- | --- | --- |
-| <a href="../assets/textures/environment/celestial/sculk_eye.png"><img src="../assets/textures/environment/celestial/sculk_eye.png" alt="environment/celestial/sculk eye" width="64"></a> | `environment/celestial/sculk_eye` | 1024 × 768 |
-## Origine et limites
 
-Ces PNG proviennent uniquement du dossier `assets/deep_dark_rising/textures/` du module de référence. Ils ne prouvent ni le rendu final, ni les recettes associées. Les textures de Minecraft vanilla et les bibliothèques tierces sont exclues de la galerie.
+[Retour au wiki](../README.md) · [Les créatures, sans dévoiler leur apparence](Creatures-et-rencontres.md)

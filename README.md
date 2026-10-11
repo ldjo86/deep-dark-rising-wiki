@@ -1,56 +1,63 @@
-# Deep Dark Rising — Wiki
+# Deep Dark Rising — Wiki officiel
 
-> Documentation publiée sur GitHub, avec modèle 3D et texture référencés.
-> Fichiers universels locaux Deep Dark Rising 0.1.0 pour Minecraft 26.x et 1.21.x inspectés en lecture seule, y compris leurs sous-JARs. Les comportements décrits restent à confirmer en jeu.
+**L'expansion du Deep Dark, sans dévoiler ses créatures.** De nouvelles menaces surgissent des zones infectées et un portail mène vers un monde dévasté. Explore, prépare ton équipement et découvre les secrets du sculk.
 
-Une expansion du Deep Dark dans laquelle le sculk se propage et un portail mène à un monde dévasté.
+## 🆕 Version analysée : 0.1.0
 
-**CurseForge :** https://www.curseforge.com/minecraft/mc-mods/deepdark-void-a-fabric-expansion-of-the-deep-dark
+**Minecraft Java / Fabric**, archives universelles des familles **1.21.x** et **26.x**. L'inventaire détaillé provient des modules 1.21.11 et 26.1 des JAR locaux ; les mécaniques restent à valider en partie.
 
-**Type :** fabric · **Archive :** 0.1.0, universal MC 1.21 and MC 26.
+**[Guide pour commencer](docs/Fonctionnement.md)** · **[26 recettes vérifiées dans le JAR](docs/Recettes-verifiees.md)** · **[Blocs illustrés](docs/Modeles-3D.md)** · **[Créatures et rencontres (sans spoilers)](docs/Creatures-et-rencontres.md)** · **[Installation](docs/Installation.md)** · **[English overview](docs/English-Overview.md)**
 
-## Modèles 3D issus du JAR
+---
 
-[Diagnostic UV et géométrie](docs/Diagnostic-UV-2026-10-10.md) — pourquoi certaines textures étaient mal appliquées et pourquoi l'ancienne géométrie Blockbench diffère du JAR.
+## 1. Commencer une aventure
 
+En explorant l'Overworld, recherche les signes de l'infection du sculk dans les grottes et près de la surface. Pars équipé : les zones corrompues sont conçues comme une menace et les cœurs de sculk peuvent réagir aux attaques ou au feu, selon la présentation du projet.
 
+La progression conduit vers les cités antiques, la recherche d'indices et l'ouverture d'un portail. Pour ne pas te gâcher la découverte, le wiki décrit les étapes générales sans dévoiler systématiquement les événements et adversaires.
 
-Les entités et les blocs sont maintenant visibles sous forme de rendus 3D réalisés **avec la géométrie et les textures du vrai mod** ; les planches UV sont conservées séparément pour les créateurs de contenu.
+## 2. Les nouveaux blocs et appareils
 
-**[18 entités et 6 blocs : galerie détaillée](docs/Modeles-3D.md)**
+| Bloc | Aperçu du modèle réel | Ce que l'on peut en faire |
+|---|---|---|
+| Cœur de sculk ancien | ![Cœur de sculk ancien](assets/modeles_3d/bloc_ancient_sculk_heart.png) | Une étape importante de la progression du sculk |
+| Collecteur prismatique | ![Collecteur prismatique](assets/modeles_3d/bloc_prismatic_collector.png) | Un dispositif fabriqué à partir de composants rares |
+| Confinement de sculk | ![Confinement de sculk](assets/modeles_3d/bloc_sculk_confinement.png) | Un bloc utilitaire dédié aux mécanismes de confinement |
 
-<a href="docs/Modeles-3D.md"><img src="assets/modeles_3d/planche-entites.png" alt="Aperçus 3D des modèles réels du mod" width="680"></a>
+**[Tous les blocs documentés](docs/Modeles-3D.md)** · [Textures originales des blocs et objets](docs/Textures-originales.md)
 
-<a href="docs/Modeles-3D.md"><img src="assets/modeles_3d/planche-blocs.png" alt="Aperçus 3D des modèles réels du mod" width="680"></a>
+## 3. Recettes et équipement
 
-## Sommaire
+Le JAR analysé contient **26 recettes JSON** dont des fabrications façonnées et libres, des cuissons, des améliorations à la forge et des recettes spéciales. Les recettes sont détaillées avec leurs ingrédients et motifs : **[ouvrir le guide des fabrications](docs/Recettes-verifiees.md)**.
 
-- [Accueil](docs/Accueil.md)
-- [Installation](docs/Installation.md)
-- [Guide et mécaniques](docs/Fonctionnement.md)
-- [FAQ](docs/FAQ.md)
-- [Inventaire des archives JAR/ZIP](docs/Inventaire-JAR.md)
-- [Sources et limites](docs/Sources-et-verification.md)
-- [English overview](docs/English-Overview.md)
+## 4. Nouvelles créatures : à découvrir en jeu
 
-Télécharge les JAR/ZIP d'installation directement sur CurseForge. Ce wiki fournit uniquement des éléments de documentation, ainsi que des **extraits des géométries et textures d'origine** pour illustrer les modèles, sans redistribuer le mod complet.
+Le mod ajoute des mutations du sculk et des adversaires liés au Vide. Certaines rencontres sont associées à l'infection ou aux zones dangereuses. **Leurs formes et textures ne sont pas montrées ici** : l'auteur choisira les captures à révéler sur la page officielle CurseForge.
 
+**[Lire leurs nouveautés et les conseils de survie, sans images](docs/Creatures-et-rencontres.md)**.
 
-## Ressources réelles extraites des archives
+## 5. Explorer le nouveau monde
 
-Les fichiers JAR/ZIP du mod ont été inspectés sans être exécutés. Les pages suivantes présentent les recettes JSON, fonctions, traductions, structures et textures effectivement présentes dans la version indiquée.
+La dimension annoncée s'organise autour de lieux ruinés, de cryptes, de forteresses et de nouveaux matériaux. Le guide détaille ce que l'on sait de l'exploration sans promettre des fréquences de génération non testées.
 
-- [Atlas technique : versions, structures, butin](docs/Atlas-technique.md)
-- [Recettes et crafts du JAR](docs/Recettes-verifiees.md)
-- [Objets, blocs, entités et enchantements](docs/Objets-blocs-entites.md)
-- [Galerie des textures PNG du mod](docs/Textures-originales.md)
-- [Fonctions et règles statiques](docs/Fonctions-analysees.md)
+**[Explorer les mécanismes](docs/Fonctionnement.md)** · [Inventaire des structures et butins](docs/Atlas-technique.md)
 
-**Référence :** `deep-dark-rising-0.1.0-mc1.21-universal.jar`, module `META-INF/jars/deep-dark-rising-0.1.0-mc1.21.11.jar`.
+## 📚 Sommaire complet
 
+| Rubrique | Contenu |
+|---|---|
+| [🚀 Premiers pas](docs/Fonctionnement.md) | Progression et découvertes |
+| [👾 Nouvelles créatures](docs/Creatures-et-rencontres.md) | Rencontres et capacités sans visuels |
+| [🧱 Blocs et appareils](docs/Modeles-3D.md) | Aperçus réels des blocs, sans entités |
+| [🛠️ Recettes](docs/Recettes-verifiees.md) | Ingrédients, motifs, forge et cuisson |
+| [📦 Objets et identifiants](docs/Objets-blocs-entites.md) | Noms traduits et contenu du JAR |
+| [🗺️ Structures et butins](docs/Atlas-technique.md) | Inventaire de la génération |
+| [🖼️ Blocs et objets en images](docs/Textures-originales.md) | Galeries sans textures de créatures |
+| [⚙️ Installation](docs/Installation.md) | Versions et compatibilité |
+| [🔎 Sources et limites](docs/Sources-et-verification.md) | Ce qui a été vérifié dans les fichiers |
 
-### Aperçu des textures originales
+## Installation et sources
 
-<a href="docs/Textures-originales.md"><img src="assets/planche-textures.png" alt="Planche de textures originales extraites du JAR" width="670"></a>
+**[Télécharger Deep Dark Rising sur CurseForge](https://www.curseforge.com/minecraft/mc-mods/deepdark-void-a-fabric-expansion-of-the-deep-dark)**. Utilise **un seul JAR universel** correspondant à ta version de Minecraft et assure-toi d'avoir le Fabric Loader et ses dépendances compatibles.
 
-Les fichiers PNG sont extraits du JAR du mod. La planche illustre les ressources brutes, pas l'apparence définitive des blocs et entités dans Minecraft.
+Les recettes et identifiants sont analysés dans les fichiers ; cela ne garantit pas à lui seul leur comportement en jeu. Ce wiki ne distribue aucun JAR ni texture de créature. Les captures de mobs seront ajoutées uniquement après publication choisie par l'auteur sur CurseForge.
